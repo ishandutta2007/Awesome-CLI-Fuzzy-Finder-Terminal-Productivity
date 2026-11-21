@@ -6,7 +6,7 @@
 
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-CLI-Fuzzy-Finder-Terminal-Productivity/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-CLI-Fuzzy-Finder-Terminal-Productivity?style=flat-square&logo=github&color=gold" alt="GitHub Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-CLI-Fuzzy-Finder-Terminal-Productivity/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-CLI-Fuzzy-Finder-Terminal-Productivity?style=flat-square&logo=github&color=gold" alt="GitHub_Stars" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-CLI-Fuzzy-Finder-Terminal-Productivity/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-CLI-Fuzzy-Finder-Terminal-Productivity?style=flat-square&logo=github&color=blue" alt="GitHub Forks" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-CLI-Fuzzy-Finder-Terminal-Productivity/issues"><img src="https://img.shields.io/github/issues/ishandutta2007/Awesome-CLI-Fuzzy-Finder-Terminal-Productivity?style=flat-square&color=red" alt="Open Issues" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-CLI-Fuzzy-Finder-Terminal-Productivity/blob/main/LICENSE"><img src="https://img.shields.io/github/license/ishandutta2007/Awesome-CLI-Fuzzy-Finder-Terminal-Productivity?style=flat-square&color=green" alt="License" /></a>
@@ -70,66 +70,66 @@ The sector remains **moderately fragmented**: while hyperscalers (Microsoft/GitH
 
 ## 🌟 Open-Source GitHub Projects
 
-Curated open-source terminal productivity and fuzzy-matching tools, strictly sorted by GitHub star count in descending order:
+Curated open-source terminal productivity and fuzzy-matching tools, strictly sorted by GitHub Stars_Count in descending order:
 
-1. **[junegunn/fzf](https://github.com/junegunn/fzf)** [![GitHub stars](https://img.shields.io/github/stars/junegunn/fzf?style=social&color=white)](https://github.com/junegunn/fzf/stargazers)  
+1. **[junegunn/fzf](https://github.com/junegunn/fzf)** [![GitHub_Stars](https://img.shields.io/github/stars/junegunn/fzf?style=social&color=white)](https://github.com/junegunn/fzf/stargazers)  
    ⚡ Flagship command-line fuzzy finder written in Go with zero dependencies. Includes interactive shell keybindings (`Ctrl-T`, `Ctrl-R`, `Alt-C`), multi-process completion, split-screen previews, and deep Vim/Neovim plugin integration.
 
-2. **[BurntSushi/ripgrep](https://github.com/BurntSushi/ripgrep)** [![GitHub stars](https://img.shields.io/github/stars/BurntSushi/ripgrep?style=social&color=white)](https://github.com/BurntSushi/ripgrep/stargazers)  
+2. **[BurntSushi/ripgrep](https://github.com/BurntSushi/ripgrep)** [![GitHub_Stars](https://img.shields.io/github/stars/BurntSushi/ripgrep?style=social&color=white)](https://github.com/BurntSushi/ripgrep/stargazers)  
    ⚡ Blazingly fast line-oriented search tool written in Rust that recursively searches current directories for regex patterns while respecting `.gitignore`. Routinely paired as the primary search engine for interactive fuzzy finders.
 
-3. **[sharkdp/bat](https://github.com/sharkdp/bat)** [![GitHub stars](https://img.shields.io/github/stars/sharkdp/bat?style=social&color=white)](https://github.com/sharkdp/bat/stargazers)  
+3. **[sharkdp/bat](https://github.com/sharkdp/bat)** [![GitHub_Stars](https://img.shields.io/github/stars/sharkdp/bat?style=social&color=white)](https://github.com/sharkdp/bat/stargazers)  
    ⚡ Modern `cat` clone with syntax highlighting and Git integration written in Rust. Widely used as the preview command engine inside `fzf` and `skim` floating previewers.
 
-4. **[starship/starship](https://github.com/starship/starship)** [![GitHub stars](https://img.shields.io/github/stars/starship/starship?style=social&color=white)](https://github.com/starship/starship/stargazers)  
+4. **[starship/starship](https://github.com/starship/starship)** [![GitHub_Stars](https://img.shields.io/github/stars/starship/starship?style=social&color=white)](https://github.com/starship/starship/stargazers)  
    ⚡ Minimal, blazing-fast, and infinitely customizable cross-shell prompt written in Rust, displaying git statuses, toolchain versions, runtime environments, and shell latency indicators.
 
-5. **[tmux/tmux](https://github.com/tmux/tmux)** [![GitHub stars](https://img.shields.io/github/stars/tmux/tmux?style=social&color=white)](https://github.com/tmux/tmux/stargazers)  
+5. **[tmux/tmux](https://github.com/tmux/tmux)** [![GitHub_Stars](https://img.shields.io/github/stars/tmux/tmux?style=social&color=white)](https://github.com/tmux/tmux/stargazers)  
    ⚡ Veteran terminal multiplexer enabling persistent sessions, split panes, and detached processes. Extensively paired with fuzzy session managers such as `tmux-sessionizer`.
 
-6. **[sharkdp/fd](https://github.com/sharkdp/fd)** [![GitHub stars](https://img.shields.io/github/stars/sharkdp/fd?style=social&color=white)](https://github.com/sharkdp/fd/stargazers)  
+6. **[sharkdp/fd](https://github.com/sharkdp/fd)** [![GitHub_Stars](https://img.shields.io/github/stars/sharkdp/fd?style=social&color=white)](https://github.com/sharkdp/fd/stargazers)  
    ⚡ Simple, fast, and user-friendly alternative to `find` written in Rust. Features colorized terminal output, regex matching, and `.gitignore` awareness by default.
 
-7. **[ajeetdsouza/zoxide](https://github.com/ajeetdsouza/zoxide)** [![GitHub stars](https://img.shields.io/github/stars/ajeetdsouza/zoxide?style=social&color=white)](https://github.com/ajeetdsouza/zoxide/stargazers)  
+7. **[ajeetdsouza/zoxide](https://github.com/ajeetdsouza/zoxide)** [![GitHub_Stars](https://img.shields.io/github/stars/ajeetdsouza/zoxide?style=social&color=white)](https://github.com/ajeetdsouza/zoxide/stargazers)  
    ⚡ Smarter `cd` command written in Rust inspired by `z` and `autojump`. Remembers directories you use most frequently and provides instant fuzzy jumping (`z <query>` and interactive `zi` with `fzf`).
 
-8. **[zellij-org/zellij](https://github.com/zellij-org/zellij)** [![GitHub stars](https://img.shields.io/github/stars/zellij-org/zellij?style=social&color=white)](https://github.com/zellij-org/zellij/stargazers)  
+8. **[zellij-org/zellij](https://github.com/zellij-org/zellij)** [![GitHub_Stars](https://img.shields.io/github/stars/zellij-org/zellij?style=social&color=white)](https://github.com/zellij-org/zellij/stargazers)  
    ⚡ Modern terminal workspace and multiplexer written in Rust featuring built-in layout engines, webassembly plugin support, and intuitive keyboard navigation.
 
-9. **[atuinsh/atuin](https://github.com/atuinsh/atuin)** [![GitHub stars](https://img.shields.io/github/stars/atuinsh/atuin?style=social&color=white)](https://github.com/atuinsh/atuin/stargazers)  
+9. **[atuinsh/atuin](https://github.com/atuinsh/atuin)** [![GitHub_Stars](https://img.shields.io/github/stars/atuinsh/atuin?style=social&color=white)](https://github.com/atuinsh/atuin/stargazers)  
    ⚡ Magical shell history replacement written in Rust. Replaces default shell history with an SQLite database, full-screen interactive TUI fuzzy search, directory contexts, and optional end-to-end encrypted sync.
 
-10. **[davatorium/rofi](https://github.com/davatorium/rofi)** [![GitHub stars](https://img.shields.io/github/stars/davatorium/rofi?style=social&color=white)](https://github.com/davatorium/rofi/stargazers)  
+10. **[davatorium/rofi](https://github.com/davatorium/rofi)** [![GitHub_Stars](https://img.shields.io/github/stars/davatorium/rofi?style=social&color=white)](https://github.com/davatorium/rofi/stargazers)  
     ⚡ Versatile window switcher, application launcher, and `dmenu` replacement for X11 and Wayland desktops with dynamic scripting modes and customizable themes.
 
-11. **[Flow-Launcher/Flow.Launcher](https://github.com/Flow-Launcher/Flow.Launcher)** [![GitHub stars](https://img.shields.io/github/stars/Flow-Launcher/Flow.Launcher?style=social&color=white)](https://github.com/Flow-Launcher/Flow.Launcher/stargazers)  
+11. **[Flow-Launcher/Flow.Launcher](https://github.com/Flow-Launcher/Flow.Launcher)** [![GitHub_Stars](https://img.shields.io/github/stars/Flow-Launcher/Flow.Launcher?style=social&color=white)](https://github.com/Flow-Launcher/Flow.Launcher/stargazers)  
     ⚡ Quick-launcher and fuzzy search command palette for Windows. Seamlessly integrates with Everything search and community plugins for Python, C#, and web lookups.
 
-12. **[vicinaehq/vicinae](https://github.com/vicinaehq/vicinae)** [![GitHub stars](https://img.shields.io/github/stars/vicinaehq/vicinae?style=social&color=white)](https://github.com/vicinaehq/vicinae/stargazers)  
+12. **[vicinaehq/vicinae](https://github.com/vicinaehq/vicinae)** [![GitHub_Stars](https://img.shields.io/github/stars/vicinaehq/vicinae?style=social&color=white)](https://github.com/vicinaehq/vicinae/stargazers)  
     ⚡ Fast, extensible native desktop launcher for Linux and cross-platform desktop environments inspired by Raycast and Alfred with comprehensive extensions.
 
-13. **[peco/peco](https://github.com/peco/peco)** [![GitHub stars](https://img.shields.io/github/stars/peco/peco?style=social&color=white)](https://github.com/peco/peco/stargazers)  
+13. **[peco/peco](https://github.com/peco/peco)** [![GitHub_Stars](https://img.shields.io/github/stars/peco/peco?style=social&color=white)](https://github.com/peco/peco/stargazers)  
     ⚡ Simplistic interactive filtering tool written in Go for parsing log streams, process lists, and piped shell commands with incremental fuzzy matching.
 
-14. **[cantino/mcfly](https://github.com/cantino/mcfly)** [![GitHub stars](https://img.shields.io/github/stars/cantino/mcfly?style=social&color=white)](https://github.com/cantino/mcfly/stargazers)  
+14. **[cantino/mcfly](https://github.com/cantino/mcfly)** [![GitHub_Stars](https://img.shields.io/github/stars/cantino/mcfly?style=social&color=white)](https://github.com/cantino/mcfly/stargazers)  
     ⚡ Neural network-powered shell history search written in Rust. Prioritizes commands based on working directory, recent context, and command exit status.
 
-15. **[skim-rs/skim](https://github.com/skim-rs/skim)** [![GitHub stars](https://img.shields.io/github/stars/skim-rs/skim?style=social&color=white)](https://github.com/skim-rs/skim/stargazers)  
+15. **[skim-rs/skim](https://github.com/skim-rs/skim)** [![GitHub_Stars](https://img.shields.io/github/stars/skim-rs/skim?style=social&color=white)](https://github.com/skim-rs/skim/stargazers)  
     ⚡ Fuzzy finder written in Rust that functions as both a standalone CLI binary and an embeddable Rust crate library for terminal user interfaces.
 
-16. **[alexpasmantier/television](https://github.com/alexpasmantier/television)** [![GitHub stars](https://img.shields.io/github/stars/alexpasmantier/television?style=social&color=white)](https://github.com/alexpasmantier/television/stargazers)  
+16. **[alexpasmantier/television](https://github.com/alexpasmantier/television)** [![GitHub_Stars](https://img.shields.io/github/stars/alexpasmantier/television?style=social&color=white)](https://github.com/alexpasmantier/television/stargazers)  
     ⚡ Blazingly fast, multi-channel general-purpose fuzzy finder TUI written in Rust with built-in preview handlers for files, Git, Docker, and environment variables.
 
-17. **[Ulauncher/Ulauncher](https://github.com/Ulauncher/Ulauncher)** [![GitHub stars](https://img.shields.io/github/stars/Ulauncher/Ulauncher?style=social&color=white)](https://github.com/Ulauncher/Ulauncher/stargazers)  
+17. **[Ulauncher/Ulauncher](https://github.com/Ulauncher/Ulauncher)** [![GitHub_Stars](https://img.shields.io/github/stars/Ulauncher/Ulauncher?style=social&color=white)](https://github.com/Ulauncher/Ulauncher/stargazers)  
     ⚡ Fast application launcher for Linux written in Python using GTK+, featuring fuzzy app search, custom color themes, and dozens of community extensions.
 
-18. **[jhawthorn/fzy](https://github.com/jhawthorn/fzy)** [![GitHub stars](https://img.shields.io/github/stars/jhawthorn/fzy?style=social&color=white)](https://github.com/jhawthorn/fzy/stargazers)  
+18. **[jhawthorn/fzy](https://github.com/jhawthorn/fzy)** [![GitHub_Stars](https://img.shields.io/github/stars/jhawthorn/fzy?style=social&color=white)](https://github.com/jhawthorn/fzy/stargazers)  
     ⚡ Lightweight terminal fuzzy text selector written in C with an optimized scoring heuristic specifically tuned for file paths and codebases.
 
-19. **[helix-editor/nucleo](https://github.com/helix-editor/nucleo)** [![GitHub stars](https://img.shields.io/github/stars/helix-editor/nucleo?style=social&color=white)](https://github.com/helix-editor/nucleo/stargazers)  
+19. **[helix-editor/nucleo](https://github.com/helix-editor/nucleo)** [![GitHub_Stars](https://img.shields.io/github/stars/helix-editor/nucleo?style=social&color=white)](https://github.com/helix-editor/nucleo/stargazers)  
     ⚡ High-performance multi-threaded parallel fuzzy matcher crate written in Rust, engineered specifically to power the Helix modal text editor picker and command palettes.
 
-20. **[mptre/pick](https://github.com/mptre/pick)** [![GitHub stars](https://img.shields.io/github/stars/mptre/pick?style=social&color=white)](https://github.com/mptre/pick/stargazers)  
+20. **[mptre/pick](https://github.com/mptre/pick)** [![GitHub_Stars](https://img.shields.io/github/stars/mptre/pick?style=social&color=white)](https://github.com/mptre/pick/stargazers)  
     ⚡ Minimalist, POSIX-compliant fuzzy selection utility written in C designed to read input lines from `stdin` and print chosen selections cleanly to `stdout`.
 
 21. **[suckless / dmenu](https://suckless.org)**  
@@ -149,7 +149,7 @@ We welcome contributions from the community! Here is how you can help expand thi
 
 1. 🍴 **Fork the repository** on GitHub.
 2. 🌿 **Create a new branch** (`git checkout -b feature/add-new-tool`).
-3. 📝 **Add or update an entry** in `README.md` following the existing format (include repository link, star badge, and clear 1–2 sentence description).
+3. 📝 **Add or update an entry** in `README.md` following the existing format (include repository link, Stars_Badge, and clear 1–2 sentence description).
 4. 🚀 **Commit your changes** (`git commit -m "feat: add awesome-tool"`).
 5. 📬 **Submit a Pull Request** with a brief summary of why the tool belongs in this list.
 

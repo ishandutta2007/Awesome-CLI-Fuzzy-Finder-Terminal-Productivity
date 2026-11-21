@@ -30,55 +30,27 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## Table of Contents
 
+- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
 - [SaaS/Hosted Platforms](#saashosted-platforms)
-
 - [Open-Source GitHub Projects](#open-source-github-projects)
-
 - [How to Contribute](#how-to-contribute)
-
 - [Support & Share](#support--share)
-
 - [Disclaimer](#disclaimer)
 
+## Sector Overview & Market Dynamics
 
+The developer productivity and command-line tools market is estimated at approximately $6.4B to $7.4B globally (with projections reaching ~$16B by 2031, growing at a ~16% CAGR), driven by increasing developer adoption of AI-accelerated workflows and terminal automation. The sector remains **moderately fragmented**: while hyperscalers (Microsoft/GitHub, AWS) dominate managed cloud development environments and infrastructure-backed tooling, the client-facing desktop launcher, terminal emulator, and CLI productivity niche is populated by specialized venture-backed innovators (e.g., Warp, Raycast) alongside fiercely independent, community-driven utilities (e.g., Alfred, Everything, and open-source binaries) where a single player does not take all.
 
 ## SaaS/Hosted Platforms
 
-
-
-- **[Raycast (Pro & Cloud Sync)](https://raycast.com)**  
-
-  Blazingly fast, extensible macOS (and Windows) command launcher featuring fuzzy search, clipboard history, window management, AI commands, and cloud-synced snippets/settings.
-
-
-
-- **[Alfred (Powerpack)](https://alfredapp.com)**  
-
-  Iconic macOS productivity launcher and workflow automation suite offering instant fuzzy file/app search, custom scripts, hotkeys, and synced preferences.
-
-
-
-- **[Everything (Voidtools)](https://voidtools.com)**  
-
-  Ultra-fast freeware Windows desktop filename search engine that indexes NTFS/ReFS volumes in seconds for instantaneous fuzzy/regex file lookups.
-
-
-
-- **[Warp (Cloud-Synced Terminal)](https://warp.dev)**  
-
-  Modern GPU-accelerated terminal featuring built-in fuzzy command search, AI command lookup, and cloud-synced team workflows and notebooks.
-
-
-
-- **[Fig / Amazon Q Developer CLI](https://amazon.com)**  
-
-  Cloud-backed terminal autocomplete and fuzzy command-palette overlay adding IDE-style completions across hundreds of CLI tools.
-
-
-
-- **[GitHub Codespaces & Cloud Shell Environments](https://github.com)**  
-
-  Managed cloud terminal workspaces delivering instant browser-accessible shells pre-configured with fuzzy search, dotfiles sync, and keyboard-centric navigation.
+| Platform | Valuation / Company Size | Pricing (Starting Tier) | Free Tier Limits | Description |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Amazon Q Developer CLI](https://amazon.com)** | ~$2.2 Trillion (Amazon Market Cap) | $19.00 / user / month (Pro Tier) | 50 agentic requests/month, 1,000 lines of code transformation/month, and limited security vulnerability scans (Free forever via AWS Builder ID). | Cloud-backed terminal autocomplete and fuzzy command-palette overlay (incorporating Fig) adding IDE-style completions across hundreds of CLI tools. |
+| **[GitHub Codespaces](https://github.com)** | ~$100 Billion+ (GitHub division within Microsoft, parent cap ~$3.1T) | $0.18 / hour (2-core compute) + $0.07 / GB / month storage | 120 core hours/month (equivalent to 60 hours on standard 2-core machines) and 15 GB storage/month on personal accounts (Free forever). | Managed cloud terminal workspaces delivering instant browser-accessible shells pre-configured with fuzzy search, dotfiles sync, and keyboard-centric navigation. |
+| **[Warp](https://warp.dev)** | ~$240 Million – $290 Million (Series B, ~$73M–$85M raised) | $20.00 / user / month (Build Tier) | Full access to core terminal features, blocks, and history search forever; excludes bundled Warp AI agent credits (requires Bring Your Own Key / API key for AI use). | Modern GPU-accelerated terminal featuring built-in fuzzy command search, AI command lookup, and cloud-synced team workflows and notebooks. |
+| **[Raycast](https://raycast.com)** | ~$100 Million – $250 Million (Series B, ~$48M raised) | $10.00 / month ($8/month billed annually for Pro Tier) | Full core launcher, window management, hotkeys, and community extensions forever; clipboard history limited to 3 months, notes limited to 5, zero AI credits included. | Blazingly fast, extensible macOS (and Windows) command launcher featuring fuzzy search, clipboard history, window management, AI commands, and cloud-synced snippets/settings. |
+| **[Alfred](https://alfredapp.com)** | Bootstrapped / Micro-Studio (Running with Crayons Ltd, est. £1M–£5M ARR) | £40.00 one-time single user license (Standard Powerpack; £70 for Mega Supporter lifetime) | Base desktop application search, basic calculations, and web search are free forever; custom workflows, clipboard history, hotkeys, and themes require a paid Powerpack license. | Iconic macOS productivity launcher and workflow automation suite offering instant fuzzy file/app search, custom scripts, hotkeys, and synced preferences. |
+| **[Everything](https://voidtools.com)** | Independent / Single Developer (voidtools, donation-funded, $0 valuation) | $0.00 / freeware (Free for personal/commercial desktop use; contact for Everything Server site license) | Full desktop file search, instantaneous NTFS indexing, and regex/fuzzy lookups are 100% free with unlimited local usage forever. | Ultra-fast freeware Windows desktop filename search engine that indexes NTFS/ReFS volumes in seconds for instantaneous fuzzy/regex file lookups. |
 
 
 

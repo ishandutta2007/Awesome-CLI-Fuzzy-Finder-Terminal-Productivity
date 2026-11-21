@@ -1,0 +1,180 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradients -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090d16" />
+      <stop offset="50%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#0a0f1d" />
+    </linearGradient>
+
+    <!-- Accent Gradient -->
+    <linearGradient id="primaryGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="50%" stop-color="#818cf8" />
+      <stop offset="100%" stop-color="#c084fc" />
+    </linearGradient>
+
+    <!-- Badge Gradient -->
+    <linearGradient id="badgeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#0f172a" stop-opacity="0.9" />
+    </linearGradient>
+
+    <!-- Glow Filter -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="15" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <filter id="subtleGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <!-- Subtle Grid Pattern -->
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1e293b" stroke-width="0.7" stroke-opacity="0.6" />
+    </pattern>
+  </defs>
+
+  <style>
+    @keyframes pulseOrb {
+      0%, 100% { transform: scale(1) translate(0, 0); opacity: 0.25; }
+      50% { transform: scale(1.15) translate(-15px, 10px); opacity: 0.45; }
+    }
+    @keyframes pulseOrb2 {
+      0%, 100% { transform: scale(1.1) translate(0, 0); opacity: 0.2; }
+      50% { transform: scale(0.95) translate(20px, -15px); opacity: 0.4; }
+    }
+    @keyframes floatPill {
+      0%, 100% { transform: translateY(0px); }
+      50% { transform: translateY(-6px); }
+    }
+    @keyframes floatPillDelay {
+      0%, 100% { transform: translateY(-3px); }
+      50% { transform: translateY(5px); }
+    }
+    @keyframes blinkCursor {
+      0%, 49% { opacity: 1; }
+      50%, 100% { opacity: 0; }
+    }
+    @keyframes scanline {
+      0% { transform: translateY(-100px); }
+      100% { transform: translateY(500px); }
+    }
+
+    .bg-orb-1 { animation: pulseOrb 8s ease-in-out infinite; transform-origin: 200px 100px; }
+    .bg-orb-2 { animation: pulseOrb2 10s ease-in-out infinite; transform-origin: 1000px 300px; }
+    .cursor { animation: blinkCursor 1s infinite; }
+    .pill-1 { animation: floatPill 5s ease-in-out infinite; }
+    .pill-2 { animation: floatPillDelay 6s ease-in-out infinite; }
+    .pill-3 { animation: floatPill 5.5s ease-in-out infinite; }
+    .pill-4 { animation: floatPillDelay 6.5s ease-in-out infinite; }
+  </style>
+
+  <!-- Deep Background -->
+  <rect width="1200" height="400" fill="url(#bgGrad)" />
+
+  <!-- Animated Glowing Ambient Orbs (Background layer) -->
+  <circle class="bg-orb-1" cx="220" cy="120" r="140" fill="#38bdf8" filter="url(#glow)" />
+  <circle class="bg-orb-2" cx="980" cy="280" r="160" fill="#a855f7" filter="url(#glow)" />
+  <circle class="bg-orb-1" cx="600" cy="360" r="110" fill="#6366f1" filter="url(#glow)" />
+
+  <!-- Grid Overlay -->
+  <rect width="1200" height="400" fill="url(#grid)" />
+
+  <!-- Decorative Outer Border -->
+  <rect x="15" y="15" width="1170" height="370" rx="18" fill="none" stroke="#334155" stroke-width="1.5" stroke-opacity="0.7" />
+
+  <!-- Background Animated Interactive Terminal Card (Right Side) -->
+  <g transform="translate(740, 60)" opacity="0.88">
+    <!-- Window Container -->
+    <rect width="410" height="230" rx="12" fill="#030712" stroke="#334155" stroke-width="1.2" />
+    <!-- Window Titlebar -->
+    <path d="M 0 12 C 0 5.37 5.37 0 12 0 L 398 0 C 404.63 0 410 5.37 410 12 L 410 32 L 0 32 Z" fill="#111827" />
+    <circle cx="20" cy="16" r="4.5" fill="#ef4444" />
+    <circle cx="36" cy="16" r="4.5" fill="#f59e0b" />
+    <circle cx="52" cy="16" r="4.5" fill="#10b981" />
+    <text x="205" y="21" fill="#64748b" font-family="'JetBrains Mono', 'Fira Code', monospace" font-size="11" text-anchor="middle">terminal — fzf preview</text>
+
+    <!-- Command Prompt & Interactive Query -->
+    <text x="20" y="58" fill="#38bdf8" font-family="'JetBrains Mono', 'Fira Code', monospace" font-size="13" font-weight="600">&gt; fzf --preview="bat --color=always {}"</text>
+    <rect class="cursor" x="345" y="46" width="8" height="15" fill="#38bdf8" />
+
+    <!-- Fuzzy Search Match Results -->
+    <g font-family="'JetBrains Mono', 'Fira Code', monospace" font-size="12">
+      <!-- Match Item 1 (Active) -->
+      <rect x="12" y="73" width="386" height="26" rx="6" fill="#1e293b" fill-opacity="0.9" stroke="#6366f1" stroke-width="0.8" />
+      <text x="24" y="90" fill="#e2e8f0">&gt; <tspan fill="#38bdf8" font-weight="bold">src/fuzzy</tspan>/finder.rs</text>
+      <text x="325" y="90" fill="#10b981" font-size="10">98% match</text>
+
+      <!-- Match Item 2 -->
+      <text x="24" y="122" fill="#94a3b8">&gt; config/terminal.toml</text>
+      <text x="325" y="122" fill="#64748b" font-size="10">84% match</text>
+
+      <!-- Match Item 3 -->
+      <text x="24" y="152" fill="#94a3b8">&gt; scripts/shell_history.zsh</text>
+      <text x="325" y="152" fill="#64748b" font-size="10">79% match</text>
+
+      <!-- Match Item 4 -->
+      <text x="24" y="182" fill="#94a3b8">&gt; keybindings/command_palette.json</text>
+      <text x="325" y="182" fill="#64748b" font-size="10">67% match</text>
+    </g>
+
+    <!-- Status Bar -->
+    <line x1="0" y1="202" x2="410" y2="202" stroke="#1f2937" stroke-width="1" />
+    <text x="20" y="219" fill="#64748b" font-family="'JetBrains Mono', 'Fira Code', monospace" font-size="10">4/1,420 items [fuzzy-engine: SIMD-Rust]</text>
+  </g>
+
+  <!-- Foreground Main Title and Hierarchy -->
+  <g transform="translate(60, 80)">
+    <!-- Category Pill -->
+    <g class="pill-1" transform="translate(0, 0)">
+      <rect width="320" height="28" rx="14" fill="url(#badgeGrad)" stroke="#38bdf8" stroke-width="1" stroke-opacity="0.8" />
+      <circle cx="16" cy="14" r="5" fill="#38bdf8" filter="url(#subtleGlow)" />
+      <text x="30" y="18" fill="#e0f2fe" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" font-weight="600" letter-spacing="0.5">AWESOME CLI &amp; FUZZY FINDER</text>
+    </g>
+
+    <!-- Main Title (Strictly Foreground, Crisp & Bold) -->
+    <text x="0" y="80" fill="url(#primaryGrad)" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="44" font-weight="800" letter-spacing="-0.5">
+      Terminal Productivity
+    </text>
+
+    <!-- Subtitle (Clear, readable, high contrast) -->
+    <text x="0" y="118" fill="#e2e8f0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="18" font-weight="500">
+      Interactive Fuzzy Finders, Command Palettes &amp; Keyboard Workflows
+    </text>
+
+    <!-- Tagline description -->
+    <text x="0" y="148" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14">
+      Curated modern CLI tools, intelligent directory jumpers, shell search &amp; desktop launchers.
+    </text>
+
+    <!-- Dynamic Feature Pills (Floating, positioned neatly in lower foreground) -->
+    <g transform="translate(0, 185)">
+      <!-- Pill 1: fzf & skim -->
+      <g class="pill-1" transform="translate(0, 0)">
+        <rect width="110" height="32" rx="16" fill="#1e293b" stroke="#38bdf8" stroke-width="1" stroke-opacity="0.6" />
+        <text x="55" y="20" fill="#38bdf8" font-family="'JetBrains Mono', monospace" font-size="12" font-weight="bold" text-anchor="middle">⚡ fzf / skim</text>
+      </g>
+
+      <!-- Pill 2: Zoxide & Atuin -->
+      <g class="pill-2" transform="translate(122, 0)">
+        <rect width="138" height="32" rx="16" fill="#1e293b" stroke="#818cf8" stroke-width="1" stroke-opacity="0.6" />
+        <text x="69" y="20" fill="#818cf8" font-family="'JetBrains Mono', monospace" font-size="12" font-weight="bold" text-anchor="middle">📁 zoxide / atuin</text>
+      </g>
+
+      <!-- Pill 3: Rofi & Raycast -->
+      <g class="pill-3" transform="translate(272, 0)">
+        <rect width="136" height="32" rx="16" fill="#1e293b" stroke="#a855f7" stroke-width="1" stroke-opacity="0.6" />
+        <text x="68" y="20" fill="#c084fc" font-family="'JetBrains Mono', monospace" font-size="12" font-weight="bold" text-anchor="middle">🚀 rofi / raycast</text>
+      </g>
+
+      <!-- Pill 4: ripgrep & fd -->
+      <g class="pill-4" transform="translate(420, 0)">
+        <rect width="132" height="32" rx="16" fill="#1e293b" stroke="#10b981" stroke-width="1" stroke-opacity="0.6" />
+        <text x="66" y="20" fill="#34d399" font-family="'JetBrains Mono', monospace" font-size="12" font-weight="bold" text-anchor="middle">🔍 ripgrep / fd</text>
+      </g>
+    </g>
+  </g>
+</svg>
